@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HD WALLPAPER ADMIN"
+        android:textSize="22sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="14dp"
+        android:id="@+id/cardview"
+        app:cardMaxElevation="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true">
+
+        <EditText
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:id="@+id/edtCaption"
+            android:layout_marginTop="15dp"
+            android:hint="Enter Wallpaper Caption"
+            android:layout_gravity="center_horizontal"/>
+
+        <ImageView
+            android:layout_width="340dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="80dp"
+            android:id="@+id/image_cover"
+            android:src="@drawable/polotno"
+            android:layout_gravity="center_horizontal"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnShowWallpaper"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/cardview"
+        android:text="Show Wallapers"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "218571516013",
+    "project_id": "hdwallpapersadmin",
+    "storage_bucket": "hdwallpapersadmin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218571516013:android:b41973ac6368cb8de03764",
+        "android_client_info": {
+          "package_name": "com.example.hdwallpapersadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218571516013-adqp8f07fdhafka4j274qkf1rjo62e19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSIHHwIqMqicvfWx1oLJL5eny2AYrQz1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218571516013-adqp8f07fdhafka4j274qkf1rjo62e19.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
